@@ -6,6 +6,10 @@ import os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+
+from pipelines.reddit_pipeline import reddit_pipeline
+
+
 default_args = {
     "owner": "Ademola Balogun",
     "start_date": datetime(2024, 7, 13)
@@ -30,7 +34,8 @@ extract = PythonOperator(
         "subreddit": "dataengineering",
         "time_filter": "day",
         "limit": 100
-    }
+    },
+    dag=dag
 )
 
 # Upload to S3
