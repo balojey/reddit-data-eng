@@ -12,12 +12,12 @@ id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18
 3) Instead of using a stored procedure and table for reporting, we embedded a 2500-line ETL script directly in Power BI. This script runs daily, making the process extremely resource-intensive, and consuming probably 10x more compute power than needed 
 
 
-4) Refusal to allow me to cross-train with other engineers who do more specific data engineering task. Much of them have been outsourced to overseas, so they don't want me to ""get the wrong idea"", since a lot of more advanced and more technical engineering functions are reserved for offshored, cheaper labor. You know, because if I was more intelligent and more skilled, I could probably get an actual 100% data engineering job elsewhere and they don't want that you know? They want the multi-tool that can do a little bit of everything",208,94,databro92,2024-07-13 12:38:58,https://www.reddit.com/r/dataengineering/comments/1e29ges/after_2_years_of_engineering_i_have_seen_some/,0,False,False,False,False
+4) Refusal to allow me to cross-train with other engineers who do more specific data engineering task. Much of them have been outsourced to overseas, so they don't want me to ""get the wrong idea"", since a lot of more advanced and more technical engineering functions are reserved for offshored, cheaper labor. You know, because if I was more intelligent and more skilled, I could probably get an actual 100% data engineering job elsewhere and they don't want that you know? They want the multi-tool that can do a little bit of everything",221,98,databro92,2024-07-13 12:38:58,https://www.reddit.com/r/dataengineering/comments/1e29ges/after_2_years_of_engineering_i_have_seen_some/,0,False,False,False,False
 1e2gpd3,"Free Copy of O'Reilly's ""Fundamentals of Data Engineering"" from Redpanda","Just wanted to drop these links to some free DE resources from Redpanda.
 
 [LinkedIn Post](https://www.linkedin.com/posts/redpanda-data_fundamentals-of-data-engineeringpdf-activity-6986109026623238144-166H/)
 
-[Direct Link to PDF](https://go.redpanda.com/hubfs/PDFs/fundamentals-of-data-engineering.pdf?utm_assettype=book&utm_assetname=dataengineering&utm_source=linkedin&utm_medium=pd_social&utm_campaign=data-eng-intl-linkedin&hsa_acc=509225849&hsa_cam=628025613&hsa_grp=213331363&hsa_ad=214663843&hsa_net=linkedin&hsa_ver=3)",54,1,theflyestg,2024-07-13 18:04:48,https://www.reddit.com/r/dataengineering/comments/1e2gpd3/free_copy_of_oreillys_fundamentals_of_data/,0,False,False,False,False
+[Direct Link to PDF](https://go.redpanda.com/hubfs/PDFs/fundamentals-of-data-engineering.pdf?utm_assettype=book&utm_assetname=dataengineering&utm_source=linkedin&utm_medium=pd_social&utm_campaign=data-eng-intl-linkedin&hsa_acc=509225849&hsa_cam=628025613&hsa_grp=213331363&hsa_ad=214663843&hsa_net=linkedin&hsa_ver=3)",60,1,theflyestg,2024-07-13 18:04:48,https://www.reddit.com/r/dataengineering/comments/1e2gpd3/free_copy_of_oreillys_fundamentals_of_data/,0,False,False,False,False
 1e2g5ah,Is switching from PySpark to Snowflake a tech stack downgrade?,"Hey! I'd appreciate some career advice regarding switching tech stack. For context, the main motivation for moving jobs is a higher salary.
 
 So I am a data engineer with 3 YOE. I've been offered a DE role in a company that mainly have SQL pipelines, making use of DBT & Snowflake. They do use some Python, but it appears to be limited.
@@ -26,13 +26,13 @@ This is different from my current role which is more on the ""software engineeri
 
 My understanding is the main appeal of Snowflake is that it removes the technical challenges of managing data infrastructure, thus lowering the barrier to entry. I definitely see the appeal of this from a management perspective, and it seems to be the way the industry is heading.
 
-However, would I be lowering my own market value in the long run by moving into an ""easier"" role? ",39,37,alex_shambles,2024-07-13 17:40:45,https://www.reddit.com/r/dataengineering/comments/1e2g5ah/is_switching_from_pyspark_to_snowflake_a_tech/,0,False,False,False,False
-1e2g341,Why can’t databases scale to handle big data?,"We have a 20TB dataset that we literally cannot load into Oracle or Tableau (via Oracle). The engineers built a spark cluster with S3 storage but no one likes it because it doesn’t behave like a traditional database (inserts, updates, small queries still require a job to be launched). If they wanted a huge database why not just scale Oracle and Tableau? Is there any solution out there that’s just a big database? All my big data user experience is with Hadoop and Spark. I’ve only used traditional databases for sub 100GB sources. Thanks.",28,42,Trick-Interaction396,2024-07-13 17:38:08,https://www.reddit.com/r/dataengineering/comments/1e2g341/why_cant_databases_scale_to_handle_big_data/,0,False,False,False,False
+However, would I be lowering my own market value in the long run by moving into an ""easier"" role? ",44,40,alex_shambles,2024-07-13 17:40:45,https://www.reddit.com/r/dataengineering/comments/1e2g5ah/is_switching_from_pyspark_to_snowflake_a_tech/,0,False,False,False,False
+1e2g341,Why can’t databases scale to handle big data?,"We have a 20TB dataset that we literally cannot load into Oracle or Tableau (via Oracle). The engineers built a spark cluster with S3 storage but no one likes it because it doesn’t behave like a traditional database (inserts, updates, small queries still require a job to be launched). If they wanted a huge database why not just scale Oracle and Tableau? Is there any solution out there that’s just a big database? All my big data user experience is with Hadoop and Spark. I’ve only used traditional databases for sub 100GB sources. Thanks.",38,43,Trick-Interaction396,2024-07-13 17:38:08,https://www.reddit.com/r/dataengineering/comments/1e2g341/why_cant_databases_scale_to_handle_big_data/,0,False,False,False,False
 1e2bgvh,Data Engineering + AI,"What AI stuff is going on in DE?
 
 I’m not talking about using ChatGPT to write code or reformat sql queries (although still helpful)
 
-I’m curious to learn about the newer stuff that deserves more attention",25,30,chrisgarzon19,2024-07-13 14:17:18,https://www.reddit.com/r/dataengineering/comments/1e2bgvh/data_engineering_ai/,0,False,False,False,False
+I’m curious to learn about the newer stuff that deserves more attention",26,31,chrisgarzon19,2024-07-13 14:17:18,https://www.reddit.com/r/dataengineering/comments/1e2bgvh/data_engineering_ai/,0,False,False,False,False
 1e2i5pg,Strategy to automate Excel processes/monsters,"Working in a large tech company as a Data Engineer/Analytics Engineer. In my 6 year career I always see Business Teams requesting Data Teams to automate twisted, and complex Excel sheets.
 These Excel workbooks could have 
 - 12+ tabs
@@ -43,12 +43,12 @@ These Excel workbooks could have
 Given that these tables don't yet exist in a Warehouse what is a recommended strategy here? 
 Do people prefer to go over the route of building a central Data Model / Warehouse for all these tables? Do people use VBA? 
 Do people neglect these type of requests to focus on bigger wins with more accesible data?
-Appreciate any insights or views!",18,7,Mobile-Collection-90,2024-07-13 19:08:23,https://www.reddit.com/r/dataengineering/comments/1e2i5pg/strategy_to_automate_excel_processesmonsters/,0,False,False,False,False
+Appreciate any insights or views!",20,9,Mobile-Collection-90,2024-07-13 19:08:23,https://www.reddit.com/r/dataengineering/comments/1e2i5pg/strategy_to_automate_excel_processesmonsters/,1,False,False,False,False
 1e2ew9a,C3.ai - where we change our slogan (and domain name) to reflect the latest fads in the data industry ,"That's it, that's the post.
 
 Does anyone actually use C3 for anything? Do they actually do anything other than force their workforce back to the office for no reason other than to justify their real estate costs and satisfy management that has trouble with object permanence?
 
-What's your experience been like?",15,11,JaJ_Judy,2024-07-13 16:47:30,https://www.reddit.com/r/dataengineering/comments/1e2ew9a/c3ai_where_we_change_our_slogan_and_domain_name/,0,False,False,False,False
+What's your experience been like?",18,11,JaJ_Judy,2024-07-13 16:47:30,https://www.reddit.com/r/dataengineering/comments/1e2ew9a/c3ai_where_we_change_our_slogan_and_domain_name/,0,False,False,False,False
 1e2tlsi,Is this a realistic plan to get into DE?,"I want to get into DE. From what I’ve seen on Reddit, the job market is pretty bad for anything in tech, but especially since I am trying to get into entry level with an unrelated degree. I graduated this May with a BA in Econ and minor in data science from a good university but honestly my technical skillset is not there (yet).
 
 I only have accounting internships and got into an accounting masters program that starts this summer (and costs 35k) but it basically guarantees me a job. I don’t like how the progression in accounting is to play office politics and become a people manager. The coursework I’ve studied feels meaningless. I don’t care about finance anymore and dislike its culture.
@@ -57,20 +57,29 @@ However, I think it could serve as a good/safe stepping stone into other jobs. I
 
 Is this a feasible and realistic plan? I haven't been able to get into entry level data analysis jobs. Is the path from accounting to DE a better battle than if I were to try to get into DE now? What certificates would you recommend?
 
-Any advice would be greatly appreciated!",7,6,thepoipoi,2024-07-14 04:30:28,https://www.reddit.com/r/dataengineering/comments/1e2tlsi/is_this_a_realistic_plan_to_get_into_de/,0,False,False,False,False
-1e25x7y,Airflow mapping,"Hi
+Any advice would be greatly appreciated!",14,9,thepoipoi,2024-07-14 04:30:28,https://www.reddit.com/r/dataengineering/comments/1e2tlsi/is_this_a_realistic_plan_to_get_into_de/,0,False,False,False,False
+1e2y81l,"What is the relation between user_messages and Messages tables. It doesn't make sense. ( I am new, sorry if this is very silly question)",,12,12,HistoryReasonable715,2024-07-14 09:32:20,https://i.redd.it/jfgm3vgeegcd1.png,0,False,False,False,False
+1e2w7u3,Fresher Data Engineer,"So I will be joining one of the service based companies next month and my domain is gonna be DE. So as a fresher what tech I should focus on with future perspective apart from python/SQL.
+(I have basic knowledge of python, SQL, Azure)
+Also on a side note what do you think about DE jobs in future? ",5,20,pirate-king-106,2024-07-14 07:15:53,https://www.reddit.com/r/dataengineering/comments/1e2w7u3/fresher_data_engineer/,0,False,False,False,False
+1e2uwq1,What if I completed a project in the insurance industry while working for the same company as an intern for a year? Could I still consider that as one year of experience? -------------------,"What if I work for the same company as an intern for one year and now as a cloud data engineer so do I have two years of experience or only one? 
 
-I have a task that takes file names from my s3 bucket and then i am using xcom to pass it to next task. Initially i was using for loop to iterate through the passed file names. Now i want to use airflow mapping but i am having difficulty in passing the file names as input to the explode parameter. ",8,5,Dr_Fida,2024-07-13 08:59:16,https://www.reddit.com/r/dataengineering/comments/1e25x7y/airflow_mapping/,1,False,False,False,False
-1e25bdy,"How I Built a Scalable, Robust, and Cost-Effective Data Platform for a Fintech Company","Hi everyone,
+Because i worked as ""intern""  for year where I work on databricks, pyspark API, and azure services and as of now I'm working as ""cloud data engineer""  in same company from past 1 year where I'm currently working on snowflake DWH so how much experience should I count it as 1 year or 2 year?
 
-I recently wrote a blog detailing my experience in building a scalable, robust, and cost-effective data platform for a fintech company. The business needed a solution that could handle large volumes of data, provide real-time analytics, ensure data integrity, and be cost-efficient.
+And any tips or suggestions what kind of questions will they ask if i go for job switch? I mean like what will they mostly ask about intern project or current project.
 
-Here’s the link to the blog: [How I Built a Scalable, Robust, and Cost-Effective Data Platform for a Fintech Company](https://medium.com/@sainathde/how-i-built-a-scalable-robust-and-cost-effective-data-platform-for-a-fintech-company-9a1434a87efe)
+I'm asking because will company accept it as 2 yoe?
 
-In conclusion, the platform successfully met the business needs by implementing a combination of cloud services, data warehousing solutions, and real-time processing capabilities. The approach not only improved performance and scalability but also optimized costs significantly.
+",5,5,Infamous_Working6597,2024-07-14 05:51:18,https://www.reddit.com/r/dataengineering/comments/1e2uwq1/what_if_i_completed_a_project_in_the_insurance/,0,False,False,False,False
+1e2ud7m,How to create a fast instant spend insight dashboard,"I live in canada and using td bank. Recently they created an app that gives you spend insights. You spend something it immediately appears in the dash board alongside your other spending for the day. Working with redshift and mysql, i dont think they are capable of providing you with these information almost instantly! I know redshift is pretty powerful database for analytics, heavy joins and group bys, but it cant be this fast. What do they use as database and how is it structured?! Is it cassandra, elastic search or some other db that i am not aware?
 
-I’d love to get some feedback and suggestions for improvement from you all. Thanks in advance!
-",6,0,Aromatic-Emergency75,2024-07-13 08:17:34,https://www.reddit.com/r/dataengineering/comments/1e25bdy/how_i_built_a_scalable_robust_and_costeffective/,0,False,False,False,False
+Appreciate a bit of details in your answers.
+
+Thanks in advance!",5,3,Puzzleheadedanxi,2024-07-14 05:17:04,https://www.reddit.com/r/dataengineering/comments/1e2ud7m/how_to_create_a_fast_instant_spend_insight/,0,False,False,False,False
+1e2ta0w,Genome data pipelines ,"Hi,
+
+I am trying to set up/create end to end data infrastructure. For large amounts of data.
+I don’t know where to get started. There are FastQ and FastA files so far.",4,4,Next-Nail9394,2024-07-14 04:10:46,https://www.reddit.com/r/dataengineering/comments/1e2ta0w/genome_data_pipelines/,0,False,False,False,False
 1e2kybg,Using Data Cubes to build flexible interactive dashboards?,"Hi All,
 
 I am your run of the mill ETL analyst who does code transformation & data loading in spark-sql, nothing fancy so far. Recently our BU partners requested if they could have a flexible way of exploring data ie use combinations of dimension & metric to understand insights about business.
@@ -134,25 +143,5 @@ I hope this question makes sense.  Let me know if clarification is needed.
 And feel free to point me to more general resources on how to construct ""piping"" processes along the lines I have in mind in Python or FastAPI. Perhaps what I need is to understand things at a more abstract level before I concentrate on the implementation details of pyarrow.
 
 Thank you all!!!",3,3,rocrocdaddy,2024-07-13 15:02:12,https://www.reddit.com/r/dataengineering/comments/1e2cgj2/apache_arrow_pattern_for_piping_dataset_from_one/,1,False,False,False,False
-1e2w7u3,Fresher Data Engineer,"So I will be joining one of the service based companies next month and my domain is gonna be DE. So as a fresher what tech I should focus on with future perspective apart from python/SQL.
-(I have basic knowledge of python, SQL, Azure)
-Also on a side note what do you think about DE jobs in future? ",2,2,pirate-king-106,2024-07-14 07:15:53,https://www.reddit.com/r/dataengineering/comments/1e2w7u3/fresher_data_engineer/,0,False,False,False,False
-1e2uwq1,What if I completed a project in the insurance industry while working for the same company as an intern for a year? Could I still consider that as one year of experience? -------------------,"What if I work for the same company as an intern for one year and now as a cloud data engineer so do I have two years of experience or only one? 
-
-Because i worked as ""intern""  for year where I work on databricks, pyspark API, and azure services and as of now I'm working as ""cloud data engineer""  in same company from past 1 year where I'm currently working on snowflake DWH so how much experience should I count it as 1 year or 2 year?
-
-And any tips or suggestions what kind of questions will they ask if i go for job switch? I mean like what will they mostly ask about intern project or current project.
-
-I'm asking because will company accept it as 2 yoe?
-
-",3,2,Infamous_Working6597,2024-07-14 05:51:18,https://www.reddit.com/r/dataengineering/comments/1e2uwq1/what_if_i_completed_a_project_in_the_insurance/,1,False,False,False,False
-1e2ud7m,How to create a fast instant spend insight dashboard,"I live in canada and using td bank. Recently they created an app that gives you spend insights. You spend something it immediately appears in the dash board alongside your other spending for the day. Working with redshift and mysql, i dont think they are capable of providing you with these information almost instantly! I know redshift is pretty powerful database for analytics, heavy joins and group bys, but it cant be this fast. What do they use as database and how is it structured?! Is it cassandra, elastic search or some other db that i am not aware?
-
-Appreciate a bit of details in your answers.
-
-Thanks in advance!",2,2,Puzzleheadedanxi,2024-07-14 05:17:04,https://www.reddit.com/r/dataengineering/comments/1e2ud7m/how_to_create_a_fast_instant_spend_insight/,0,False,False,False,False
-1e2ta0w,Genome data pipelines ,"Hi,
-
-I am trying to set up/create end to end data infrastructure. For large amounts of data.
-I don’t know where to get started. There are FastQ and FastA files so far.",2,0,Next-Nail9394,2024-07-14 04:10:46,https://www.reddit.com/r/dataengineering/comments/1e2ta0w/genome_data_pipelines/,0,False,False,False,False
+1e2yr34,Monoliths vs microservices in data?,,4,1,engineer_of-sorts,2024-07-14 10:06:54,https://i.redd.it/iaxu3rbpkgcd1.jpeg,0,False,False,False,False
 1e2bq4s,Gretel's synthetic data outperformed GPT-4 by 25.6% and Llama3-70b by 48.1%,"Gretel Navigator’s synthetic data generation outperformed OpenAI's GPT-4 by 25.6%, surpassed Llama3-70b by 48.1%, and exceeded human expert-curated data by 73.6%. [https://gretel.ai/blog/how-to-create-high-quality-synthetic-data-for-fine-tuning-llms](https://gretel.ai/blog/how-to-create-high-quality-synthetic-data-for-fine-tuning-llms)",0,0,alig80,2024-07-13 14:29:05,https://www.reddit.com/r/dataengineering/comments/1e2bq4s/gretels_synthetic_data_outperformed_gpt4_by_256/,0,False,False,False,False

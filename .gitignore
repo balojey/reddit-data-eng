@@ -2,3 +2,5 @@ awscliv2.zip
 aws/
 __pycache__
 config/config.conf
+data/input/*
+data/output/*
